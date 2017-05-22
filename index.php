@@ -29,18 +29,18 @@ defined("CONFIG") ? null : define('CONFIG', 'settings.ini.php');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Muximux - Application Management Console">
+    <meta name="description" content="Davis Server - Application Management Console">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png?v=ngGoyLXN9n">
-    <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png?v=ngGoyLXN9n" sizes="32x32">
-    <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png?v=ngGoyLXN9n" sizes="16x16">
-    <link rel="manifest" href="images/favicon/manifest.json?v=ngGoyLXN9n">
-    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg?v=ngGoyLXN9n" color="#5bbad5">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico?v=ngGoyLXN9n">
-    <meta name="apple-mobile-web-app-title" content="Muximux">
-    <meta name="application-name" content="Muximux">
-    <meta name="msapplication-config" content="images/favicon/browserconfig.xml?v=ngGoyLXN9n">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png?v=E6bp8kPLLK">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png?v=E6bp8kPLLK">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png?v=E6bp8kPLLK">
+    <link rel="manifest" href="images/favicon/manifest.json?v=E6bp8kPLLK">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg?v=E6bp8kPLLK" color="#0d9423">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico?v=E6bp8kPLLK">
+    <meta name="msapplication-config" content="images/favicon/browserconfig.xml?v=E6bp8kPLLK">
+    <meta name="theme-color" content="#0d9423">
+    <meta name="apple-mobile-web-app-title" content="Davis Server">
+    <meta name="application-name" content="Davis Server">
     <link rel="stylesheet" href="css/loader.css"/>
     <link rel="stylesheet" href="combineify.php?type=css&files=css/cssreset.min.css,css/jquery-ui.min.css,css/bootstrap.min.css,css/bootstrap-iconpicker.min.css,css/font-awesome.min.css,css/font-muximux.css,css/font-pt_sans.css,css/style.css,css/spectrum.min.css,<?php echo getThemeFile();?>">
     <title><?php echo getTitle(); ?></title>

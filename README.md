@@ -1,6 +1,7 @@
-# Muximux - Lightweight portal to your webapps
+# Fork of Muximux - Lightweight portal to your webapps
 
-[![Join the chat at https://gitter.im/mescon/Muximux](https://badges.gitter.im/mescon/Muximux.svg)](https://gitter.im/mescon/Muximux?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Docker Automated buil](https://img.shields.io/docker/automated/linuxserver/docker-muximux.svg)](https://hub.docker.com/r/linuxserver/muximux/) [![GitHub stars](https://img.shields.io/github/stars/mescon/Muximux.svg)](https://github.com/mescon/Muximux/stargazers) [![GitHub forks](https://img.shields.io/github/forks/mescon/Muximux.svg)](https://github.com/mescon/Muximux/network)
+
+[![Docker Automated buil](https://img.shields.io/docker/automated/linuxserver/docker-muximux.svg)](https://hub.docker.com/r/linuxserver/muximux/) 
 
 This is a lightweight portal to view & manage your webapps without having to run anything more than a PHP enabled webserver.
 With Muximux you don't need to keep multiple tabs open, or bookmark the URL to all of your apps.
