@@ -88,9 +88,7 @@ defined("CONFIG") ? null : define('CONFIG', 'settings.ini.php');
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <div class="modal-title">
                         <div class='logo smallLogo' id='settingsLogo'>
-                            <?php
-                            echo file_get_contents("images/muximux-white.svg")
-                            ?>
+                            <img src="images/DavisCoatOfArms.png">
                         </div>
                         <h1>Settings</h1>
                     </div>
@@ -302,7 +300,7 @@ defined("CONFIG") ? null : define('CONFIG', 'settings.ini.php');
             <!-- Modal content-->
                 <div class="modal-header splashHeader">
                         <div class="logo smallLogo">
-                            <div class="modal-title"><?php echo file_get_contents("images/muximux-white.svg") ?></div>
+                            <div class="modal-title"><img src="images/DavisCoatOfArms.png"></div>
                         </div>
                         <div class="webTicker"></div>
                         <div class="feedWrapper ti_wrapper">
