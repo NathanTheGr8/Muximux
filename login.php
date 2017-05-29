@@ -49,7 +49,7 @@ echo '
 
 <div class="wrapper">
     <div class="logo">
-	<img src="images/DavisCoatOfArms.png">
+	<img src="images/DavisCoatOfArms.png" class="img-responsive">
 	</div>
     <div class="login-block" id="slide">
 		<form method="post" id=login action="index.php">
