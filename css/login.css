@@ -14,6 +14,14 @@ body {
     display: none;
 }
 
+.logo .img {
+    height: 100%;
+    width: auto;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
 svg {
 	display: block;
 	margin: auto;

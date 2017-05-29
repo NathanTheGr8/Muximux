@@ -49,8 +49,8 @@ echo '
 
 <div class="wrapper">
     <div class="logo">
-	<img src="images/DavisCoatOfArms.png" class="img-responsive">
-	</div>
+        <img src="images/DavisCoatOfArms.png" class="img-responsive">
+    </div>
     <div class="login-block" id="slide">
 		<form method="post" id=login action="index.php">
         <h1 class="login0">Login</h1>
