@@ -49,9 +49,8 @@ echo '
 
 <div class="wrapper">
     <div class="logo">
-		'.
-	file_get_contents("images/muximux-white.svg")
-	.'</div>
+	<img src="images/DavisCoatOfArms.png">
+	</div>
     <div class="login-block" id="slide">
 		<form method="post" id=login action="index.php">
         <h1 class="login0">Login</h1>

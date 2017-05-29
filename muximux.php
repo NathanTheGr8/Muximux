@@ -621,7 +621,7 @@ function menuItems() {
 // Quickie fetch the main title
 function getTitle() {
     $config = new Config_Lite(CONFIG);
-    $item = $config->get('general', 'title', 'Muximux - Application Management Console');
+    $item = $config->get('general', 'title', 'Davis Family Server - Application Management Console');
     return $item;
 
 }
