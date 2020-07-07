@@ -51,6 +51,9 @@ You can find [their instructions here](https://hub.docker.com/r/linuxserver/muxi
 
 - Remove the default apps (or just change the URL:s of them if you want to keep them), add your own apps by clicking in the top right corner and then click "Settings".
 
+- To refer the link to the same server that is hosting Muximix in contexts where ip / hostname I can change (local network, remote network, vpn, etc) you can write the url in the form ``http://{self}/<page/dir>`` or ``http://{self}:<port>``. 
+At runtime ``{self}`` will be replaced with the value contained in ``$_SERVER['HTTP_HOST']``.
+
 - Under Settings, rearrange your apps with drag'n'drop - just drag an item under another item to move it it.
 
 - To reload an app, double click it in the menu, or press the refresh button in the top right bar.
@@ -79,6 +82,13 @@ However, you can password protect the Muximux application itself in the "Setting
 
  Install the plugin "[Ignore X-Frame headers](https://chrome.google.com/webstore/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe)" which disables the blocking of non-secure content.
 
+### Using with PFSense
+Please refer to the following:
+https://forum.pfsense.org/index.php?topic=47167.msg248336#msg248336
+then check this box:
+Browser HTTP_REFERER enforcement - Disable HTTP_REFERER enforcement check
+Now pfsense works in muximux :D
+(Thanks to nullredvector for the tip)
 
 ## Screenshots
 #### Desktop screenshot (modern theme)
